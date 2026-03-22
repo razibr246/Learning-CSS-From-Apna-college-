@@ -1,0 +1,35 @@
+#mainTopic{  /*q1 */
+    color: blue;
+} 
+*{ /*2*/
+    text-align: center;
+}
+h1,h3,h5 {
+    font-family: Georgia;
+}
+body p { /*4*/
+    color: white;
+    background-color: cornflowerblue;
+}
+/*5*/
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+/*7*/
+p:nth-of-type(odd) {
+    color: yellow;
+}
+/*8*/
+#mainTopic::first-letter{
+ color: red;
+}
+
+/*9*/
+#yes :checked+label {
+    color: darkgreen;
+}
